@@ -1,11 +1,19 @@
 def fizzbuzz(int)
   if int % 15 == 0
-    "FizzBuzz"
+    puts "FizzBuzz"
   elsif int % 3 == 0
-    "Fizz"
+    puts "Fizz"
   elsif int % 5 == 0
-    "Buzz"
+    puts "Buzz"
   else
     puts int
+  end
+end
+counter = 0
+loop do
+  counter = counter + 1
+  fizzbuzz(counter)
+  if counter >= 100
+    break
   end
 end
