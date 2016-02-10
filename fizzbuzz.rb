@@ -8,4 +8,4 @@ def fizzbuzz(integer)
   else (integer % 5 != 0) && (integer % 3 != 0)
     nil
   end
-end
+  end
